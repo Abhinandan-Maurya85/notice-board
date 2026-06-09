@@ -23,12 +23,6 @@ Live demo: (add your Vercel URL after deploying)
    npm install
    ```
 
-3. Set up environment variables
-   Create a `.env.local` file in the root directory and add:
-   ```
-   DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=YOUR_API_KEY"
-   ```
-
 4. Run Prisma migrations
    ```
    npx prisma migrate dev
