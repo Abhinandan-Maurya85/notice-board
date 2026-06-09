@@ -13,20 +13,31 @@ Live demo: (add your Vercel URL after deploying)
 ## How to run locally
 
 1. Clone the repository
+   ```
    git clone https://github.com/Abhinandan-Maurya85/notice-board.git
    cd notice-board
+   ```
 
 2. Install dependencies
+   ```
    npm install
+   ```
 
-
-3.  DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=YOUR_API_KEY"
+3. Set up environment variables
+   Create a `.env.local` file in the root directory and add:
+   ```
+   DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=YOUR_API_KEY"
+   ```
 
 4. Run Prisma migrations
+   ```
    npx prisma migrate dev
+   ```
 
 5. Start the development server
+   ```
    npm run dev
+   ```
 
 6. Open http://localhost:3000
 
