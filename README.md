@@ -20,7 +20,7 @@ Live demo: (add your Vercel URL after deploying)
    npm install
 
 
-3.  DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=YOUR_API_KEY" postgres?sslmode=require 
+3.  DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=YOUR_API_KEY" postgres?sslmode=require" 
 
 4. Run Prisma migrations
    npx prisma migrate dev
